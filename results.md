@@ -8,7 +8,7 @@ The workshop calls for benchmarks that go beyond outcome-based accuracy, that re
 
 ## Result 1: Accuracy by Domain and Logical Property
 
-**Image:** `result_images/result_1.png`
+![Accuracy by Domain and Logical Property](result_images/result_1.png)
 
 This bar chart tests three models (Phi-3-mini 3.8B, SmolLM3 3B, Qwen2.5 0.5B) on six domains (Abstract, Kinship, Set Theory, Object Identity, Synonymy, Spatial) across reflexivity, symmetry, and transitivity.
 
@@ -40,7 +40,7 @@ The workshop also asks for "interpretable and fine-grained evaluation" that goes
 
 ## Result 2: Paraphrase Sensitivity
 
-**Image:** `result_images/result_2.png`
+![Paraphrase Sensitivity](result_images/result_2.png)
 
 Each logical scenario is phrased in three different surface forms. This figure plots the variance in accuracy across those three phrasings. If the model is actually reasoning about the logical content, rephrasing should not change the answer. If it is matching surface patterns, rephrasing will cause its accuracy to swing.
 
@@ -68,7 +68,7 @@ It also ties to the workshop's interest in deduction enhancement. The fact that 
 
 ## Result 3: Domain Accuracy Radar Charts
 
-**Image:** `result_images/result_3.png`
+![Domain Accuracy Radar Charts](result_images/result_3.png)
 
 Three radar charts show Phi-3-mini's accuracy across all six domains for each property. Each vertex of the hexagon is a domain, and the blue area shows accuracy reaching toward 100%.
 
